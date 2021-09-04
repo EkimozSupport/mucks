@@ -557,7 +557,7 @@ async def oynat(_, message: Message):
         )
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/03f1c9ec4513c3a52bc22.jpg"
+        thumb_name = f"thumb{title}.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
